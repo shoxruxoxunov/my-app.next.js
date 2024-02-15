@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
-import Home from "./page";
+// import Home from "./page";
 import { Navbar } from "./components";
-import SingleInvoice from "./aboutinvoice/[id]/page";
+// import SingleInvoice from "./aboutinvoice/[id]/page";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Home",
