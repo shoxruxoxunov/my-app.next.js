@@ -1,19 +1,16 @@
-import InvoiceLilst from "./components/InvoiceLilst";
-import Restangle from "./components/Restangle";
+import { InvoiceLilst, Navbar } from "./components";
+import DataFetch from "./components/dataFetch";
 
-async function getData(url) {
-  const req = await fetch(url);
-  const data = await req.json();
-  return data;
-}
+
 
 async function Home() {
-  const invoices = await getData("http://localhost:4000/data");
+  const invoices = await DataFetch("http://localhost:4000/data");
+  
 
   return (
-    <main className="flex-1">
-      <InvoiceLilst invoices={invoices} />
-      <Restangle />
+    <main className="">
+      <Navbar />
+      <InvoiceLilst invoices={invoices}/>
     </main>
   );
 }

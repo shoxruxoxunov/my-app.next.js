@@ -1,9 +1,10 @@
+
 function Restangle() {
   return (
     <>
-      <div className="relative">
-        <div className=" fixed top-[0px] left-[] right-[] h-[800px] w-[103px] rounded-r-[20xp] rounded-b-[20px] bg-[rgb(55,59,83)]">
-          <div className="w-[103px] h-[103px] bg-[rgb(45,134,206)] rounded-r-[20px] rounded-b-[20px]">
+      <div className="relative z-20">
+        <div className=" fixed top-0 left-0 right-[1337px] bottom-0 h-screen w-[103px] rounded-tr-[20px] rounded-br-[20px] bg-[#373B53] ">
+          <div className="w-[103px] h-[103px] bg-[#9277FF] rounded-br-[20px] rounded-tr-[20px]">
             <div className="relative">
               <div className="absolute left-[32px] right-[-32px] top-[31px] bottom-[-31px] rounded-[50px]  bg-[rgb(255,255,255)] w-[40px] h-[40px]"></div>
             </div>
@@ -41,7 +42,7 @@ function Restangle() {
               <div className=" absolute left-[31px] right-[32px] top-[470px] bottom-[-659px] rounded-[50px] w-[40px] h-[40px]">
                 <img
                   className="rounded-[50px]"
-                  src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1446"
+                  src="/assets/photo-1535713875002-d1d0cf377fde.avif"
                   alt=""
                 />
               </div>
